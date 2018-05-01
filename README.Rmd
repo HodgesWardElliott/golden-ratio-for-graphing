@@ -1,6 +1,8 @@
 ---
 title: "Plotting using the golden ratio"
-output: html_document
+output:
+  github_document:
+    pandoc_args: --webtex
 ---
 
 Use the Golden Ratio when plotting figures in R. 

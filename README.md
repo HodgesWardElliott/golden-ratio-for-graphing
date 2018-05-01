@@ -5,15 +5,9 @@ Use the Golden Ratio when plotting figures in R.
 
 [Golden Ratio is defined as:](https://en.wikipedia.org/wiki/Golden_ratio)
 
-`In mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities.`
+*In mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities.*
 
- =
-
-$\\left( \\sum\_{i=1}^{n}{i} \\right)^2 = \\left( \\frac{n(n-1)}{2}\\right)^2 = \\frac{n^2(n-1)^2}{4}$
-
-A B ( )
-
-A
+![\\frac{a+b}{a} = \\frac{a}{b}](https://latex.codecogs.com/png.latex?%5Cfrac%7Ba%2Bb%7D%7Ba%7D%20%3D%20%5Cfrac%7Ba%7D%7Bb%7D "\frac{a+b}{a} = \frac{a}{b}")
 
 The ratio can also be expressed as a real number, approximately: `1.61803398875`
 

@@ -1,0 +1,46 @@
+---
+title: "Plotting using the golden ratio"
+output: github_document
+---
+
+Use the Golden Ratio when plotting figures in R. 
+
+[Golden Ratio is defined as:](https://en.wikipedia.org/wiki/Golden_ratio)
+
+`In mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities. `
+
+$\frac{a+b}{a} = \frac{a}{b}$
+
+The ratio can also be expressed as a real number, approximately:
+`1.61803398875`
+
+
+Calculating the Golden Ratio:
+
+```{r}
+GoldenRatio=(1+sqrt(5))/2
+GoldenRatio
+```
+
+# Visualizing:
+
+12x12
+```{r fig.height=6, fig.width=6}
+# square:
+plot(iris$Sepal.Length, iris$Petal.Width, col = iris$Species)
+```
+
+
+12x(12/GoldenRatio)
+```{r fig.height=12, fig.width=12/1.618034}
+# golden width to height
+plot(iris$Sepal.Length, iris$Petal.Width, col = iris$Species)
+```
+
+
+(12/GoldenRatio)x12
+```{r fig.height=12/1.618034, fig.width=12}
+# golden height to width
+plot(iris$Sepal.Length, iris$Petal.Width, col = iris$Species)
+```
+

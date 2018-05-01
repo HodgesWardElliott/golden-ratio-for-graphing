@@ -7,7 +7,13 @@ Use the Golden Ratio when plotting figures in R.
 
 `In mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities.`
 
-$\\frac{a+b}{a} = \\frac{a}{b}$
+ =
+
+$\\left( \\sum\_{i=1}^{n}{i} \\right)^2 = \\left( \\frac{n(n-1)}{2}\\right)^2 = \\frac{n^2(n-1)^2}{4}$
+
+A B ( )
+
+A
 
 The ratio can also be expressed as a real number, approximately: `1.61803398875`
 
